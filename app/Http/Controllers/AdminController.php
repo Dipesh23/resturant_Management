@@ -103,7 +103,7 @@ class AdminController extends Controller
         
     }
 
-    public function reservation(Request $request)
+    public function reservations(Request $request)
     {
 
         $data = new reservation;
